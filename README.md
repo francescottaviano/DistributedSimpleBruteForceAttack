@@ -6,8 +6,8 @@ Open a terminal window, run the server:
 - $ java Server
 
 In other terminal windows, run workers (max 1000):
-- $ rmiregistry <port> &
-- $ java Worker <hostname> <port>
+- $ rmiregistry < port > &
+- $ java Worker < hostname > < port >
 
 In another terminal window, run client:
-- $ java Client <hostname>
+- $ java Client < hostname >
