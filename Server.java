@@ -41,7 +41,6 @@ public class Server extends UnicastRemoteObject implements ServerInterface {
 
 			long end = 0;
 			long start = 0;
-			System.out.println(Integer.toString(ports[0]));
 			for (int i = 0; i < workers; i++) {
 				end = start + blocksize;
 				// Construct the name to use to lookup the remote object
