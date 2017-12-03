@@ -1,4 +1,4 @@
-# SimpleBruteForceAttack
+# DistributedSimpleBruteForceAttack
 
 Open a terminal window, run the server:
 - $ javac Client.java Server.java Worker.java ServerInterface.java WorkerInterface.java
